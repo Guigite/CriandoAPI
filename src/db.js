@@ -1,10 +1,10 @@
 const mysql = require('mysql');
 const db = mysql.createPool({
-    host: "localhost",
+    host: "loalhost",
     user: "root",
     password: "",
     port: 3306,
-    database: "receitas"
+    database: "receitas",
 });
 
 db.getConnection((err, con) => {
